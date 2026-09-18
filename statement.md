@@ -2,32 +2,30 @@
 
 ## Overview
 
-The **Attendance Management System** is a Java-based command-line application designed to simplify and organize classroom attendance management. It helps teachers or attendance administrators maintain student records, mark attendance, calculate attendance percentages, and identify students whose attendance is below the required **75%** threshold.
+The Attendance Management System is a Java command line application that simplifies and organizes the processes of maintaining students’ presence in class. It allows the teacher or attendance administrator to store student data, mark attendance, calculate the percentage, and display students with an insufficient number of visits (below 75%).
 
-The system reduces the need for manual attendance calculations and keeps records organized. It stores attendance data locally in a text file, allowing saved records to be loaded again when the application is restarted. The project is designed as a simple and lightweight solution for small classrooms without requiring a database, internet connection, or server.
-
+The program eliminates the need for time-consuming attendance calculations and stores the data in an organized manner. The data can be saved in a text file locally on a computer and reimported upon starting the application anew. The project is a simple utility with few features intended for a small class of students without a database, server, or internet connection.
 ## 1. Problem Statement
 
-Manual attendance registers are time-consuming to maintain, especially when the number of students and classes increases. Calculating attendance percentages manually can also lead to repeated work and mistakes.
+Manual attendance registers are a tedious task to maintain especially when the strength of students and classes increases. Manually calculating attendance percentages can also prove to be a cumbersome task.
 
-The **Attendance Management System** solves this problem by providing a menu-driven application that allows the user to add students, mark daily attendance, view attendance records, automatically calculate attendance percentages, and identify students whose attendance is below 75%.
-
+The Attendance Management System solves the above-mentioned problems by giving the user a menu-driven application to enter student details, enter daily attendance, view attendance, view percentage of attendance and view the list of students who have less than 75% attendance.
 ## 2. Scope
 
-The project is designed for **small classrooms and educational organizations**. It covers the basic activities required for maintaining attendance records.
+The project is designed for the purpose of small class or organizations maintaining attendance records of students. The basic day to day activities of such organizations are involved in this project.
 
-The system includes:
+The system contains the following:
 
-- Adding students using a unique roll number and name.
-- Marking attendance for each class.
-- Calculating attendance percentages automatically.
-- Viewing individual student attendance.
-- Viewing attendance records of all students.
-- Generating a defaulter report for students below 75%.
-- Saving records in `attendance_data.txt`.
-- Loading previously saved records when the program starts.
+-Student registration with a unique roll number and name,
+marking attendance for every class,
+calculating attendance percentage,
+displaying a particular student's attendance,
+displaying the attendance of all the students,
+generating a report of those students who are having less than 75% attendance (defaulter report),
+storing the information in a file called attendance_data.txt,
+and lastly loading the data from the previously saved file when the program starts.
 
-The current system is intended for a single user on one computer and does not require a database, internet connection, server, or web interface.
+The current system is intended for the purpose of single user and is not database driven. It also doesn't involve any server or internet connection.
 
 ## 3. Target Users
 
